@@ -1,0 +1,19 @@
+{
+  "name": "spinning-atom",
+  "version": "0.0.0",
+  "description": "spinning atom vis",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy app.js:bundle.js --live",
+    "bundle": "browserify -d app.js -o bundle.js"
+  },
+  "author": "jeremiak",
+  "license": "ISC",
+  "dependencies": {
+    "raphael": "^2.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^6.0.3",
+    "beefy": "^2.1.1"
+  }
+}
